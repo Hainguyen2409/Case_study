@@ -85,6 +85,20 @@ nav span.nav-item .fa-stack {
 	background-color: #fbf9f5;
 }
 
+.img-container .img-item p {
+    display: block;
+}
+
+.img-container .img-item img {
+    margin-right: 5px;
+}
+
+.btn a {
+    background-color: #fff;
+    width: 300px;
+    color: #001489;
+    border: 2px solid #001489;
+}
 
 .img-container {
     display: flex;
@@ -98,13 +112,8 @@ nav span.nav-item .fa-stack {
     width: 100%;
 }
 
-.img-container p {
-    display: inline-block;
-}
 
-.img-container .img-item {
-   
-}
+
 
 .table {
     margin-left: 50px;  
@@ -118,10 +127,6 @@ nav span.nav-item .fa-stack {
     box-sizing: border-box;
     border: 2px solid #001489;
     margin-bottom: 10px;
-    display: flex;
-    align-items: flex-end;
-    max-width: 400px;
-    max-height: 500px; 
 }
 
 /* latest-video */
