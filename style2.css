@@ -52,74 +52,20 @@ nav span.nav-item .fa-stack {
     margin-right: 20px;
 }
 
-.title {
-    padding-top: 6rem;
-    padding-left: 2rem;
-    padding-bottom: 2em;
-    color: #001489;
-}
-
-/* header  */
-.header {
-	position: relative;
-	padding-top: 8rem;
-	padding-bottom: 30%;
-	background: url('/img/westhamstadium.jpg') center center no-repeat;
-	background-size: cover;
-	text-align: center;
-    height: 700px;
-}
-
-.text-container {
-    width: 100%;
-    margin: auto;
-    margin-top: auto;
-}
-.text-container h1 {
-    font-size: xx-large;
-    color: #001489;
-    font-weight: 900;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.text-container p {
-    font-size: x-large;
-    color: #001489;
-    font-weight: bolder;
-    text-align: center;
-}
-
-/* content  */
-.text-container-1 h4 {
-    font-size: 40px;
-    color: #001489;
-    margin-left: 50px;
-}
-
-.text-container-1 p {
-    font-size: 20px;
-    color: black;
-    margin-left: 50px;
-}
-
-.text-container-1 ul li {
-    font-size: 20px;
-    color: black;
-    margin-left: 50px;
-}
-
-/* more  */
+/* team  */
 
 .basic-1 {
-	padding-top: 3.75rem;
+	padding-top: 6rem;
 	padding-bottom: 3.5rem;
 	background-color: #fbf9f5;
 }
 
-.side-bar {
-    margin-left: 80px;
+.basic-2 {
+	padding-top: 2rem;
+	padding-bottom: 3.5rem;
+	background-color: #fbf9f5;
 }
+
 
 .card {
     box-sizing: border-box;
@@ -127,25 +73,74 @@ nav span.nav-item .fa-stack {
     margin-bottom: 10px;
 }
 
-#more h2 {
+#team h2 {
     font-size: 30px;
     color: #001489;
     margin-left: 50px;
     font-weight: 700;
 }
 
-.news-container {
-    margin: 10px;
+#team h3 {
+    font-size: 30px;
+    color: #001489;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+#team h4 {
+    font-size: 25px;
+    color: #001489;
+    font-weight: 700;
+}
+.team-container {
+    margin: 20px;
     padding: auto;
-}
-
-.news-container .card-body {
+    width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
-.news-container .card {
+.team-container .card-body {
+    position: relative;
+    top: 20rem;
+}
+
+.team-container .card {
+    height: 500px;
+    width: 400px;
+    margin-top: 10px;
+
+}
+
+.team-container .card .card-image img {
+    position: absolute; 
     max-height: 500px;
+    max-width: 400px;
+    width: auto;
+    height: auto;
+    transition: all 1s;
+}
+
+.team-container .card .card-image:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.team-container span {
+    position: relative;
+    top: 20rem;
+    font-size: 50px;  
+    width: 80px;
+    height: 80px;
+    background-color: #001489;
+}
+
+.team-container span p {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    color: #fff;
 }
 
 /* partners */
